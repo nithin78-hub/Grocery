@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - FreshMart</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="nav-brand">
+                <h1><a href="index.html"><i class="fas fa-shopping-basket"></i> FreshMart</a></h1>
+            </div>
+            <nav class="nav-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="categories.html">Categories</a></li>
+                    <li><a href="about.html" class="active">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="nav-actions">
+                <div class="search-box">
+                    <input type="text" id="searchInput" placeholder="Search products...">
+                    <button id="searchBtn"><i class="fas fa-search"></i></button>
+                </div>
+                <div class="user-actions">
+                    <a href="cart.html" class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count" id="cartCount">0</span>
+                    </a>
+                    <div class="user-menu">
+                        <button id="userMenuBtn" class="user-btn">
+                            <i class="fas fa-user"></i>
+                        </button>
+                        <div class="user-dropdown" id="userDropdown">
+                            <div id="guestMenu">
+                                <a href="login.html">Login</a>
+                                <a href="register.html">Register</a>
+                            </div>
+                            <div id="userMenu" style="display: none;">
+                                <a href="profile.html">Profile</a>
+                                <a href="orders.html">My Orders</a>
+                                <a href="#" id="logoutBtn">Logout</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main style="padding: 4rem 0; background: white;">
+        <div class="container">
+            <h1 style="text-align: center; color: #2c3e50; margin-bottom: 2rem;">About FreshMart</h1>
+            <div style="max-width: 800px; margin: 0 auto; line-height: 1.8;">
+                <div style="text-align: center; margin-bottom: 3rem;">
+                    <i class="fas fa-shopping-basket" style="font-size: 4rem; color: #3498db; margin-bottom: 1rem;"></i>
+                    <p style="font-size: 1.2rem; color: #666;">Welcome to FreshMart, your trusted online grocery store delivering fresh, quality products right to your doorstep!</p>
+                </div>
+                
+                <div style="margin-bottom: 2rem;">
+                    <h2 style="color: #2c3e50; margin-bottom: 1rem;">Our Mission</h2>
+                    <p style="color: #666; font-size: 1.1rem;">To provide fresh, high-quality groceries with convenient online shopping and fast delivery service. We believe everyone deserves access to nutritious, affordable food.</p>
+                </div>
+                
+                <div style="margin-bottom: 2rem;">
+                    <h2 style="color: #2c3e50; margin-bottom: 1rem;">Why Choose FreshMart?</h2>
+                    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; margin-top: 1.5rem;">
+                        <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; text-align: center;">
+                            <i class="fas fa-leaf" style="font-size: 2rem; color: #27ae60; margin-bottom: 1rem;"></i>
+                            <h3 style="color: #2c3e50; margin-bottom: 0.5rem;">Fresh Produce</h3>
+                            <p style="color: #666;">Sourced daily from local farms</p>
+                        </div>
+                        <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; text-align: center;">
+                            <i class="fas fa-truck" style="font-size: 2rem; color: #3498db; margin-bottom: 1rem;"></i>
+                            <h3 style="color: #2c3e50; margin-bottom: 0.5rem;">Fast Delivery</h3>
+                            <p style="color: #666;">Same-day delivery available</p>
+                        </div>
+                        <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; text-align: center;">
+                            <i class="fas fa-dollar-sign" style="font-size: 2rem; color: #e74c3c; margin-bottom: 1rem;"></i>
+                            <h3 style="color: #2c3e50; margin-bottom: 0.5rem;">Best Prices</h3>
+                            <p style="color: #666;">Competitive pricing guaranteed</p>
+                        </div>
+                        <div style="background: #f8f9fa; padding: 1.5rem; border-radius: 10px; text-align: center;">
+                            <i class="fas fa-headset" style="font-size: 2rem; color: #9b59b6; margin-bottom: 1rem;"></i>
+                            <h3 style="color: #2c3e50; margin-bottom: 0.5rem;">24/7 Support</h3>
+                            <p style="color: #666;">Always here to help you</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div style="background: linear-gradient(135deg, #3498db, #2980b9); color: white; padding: 2rem; border-radius: 15px; text-align: center; margin-top: 3rem;">
+                    <h2 style="margin-bottom: 1rem;">Join Our Family</h2>
+                    <p style="margin-bottom: 1.5rem; opacity: 0.9;">Over 10,000 satisfied customers trust FreshMart for their grocery needs.</p>
+                    <a href="products.html" style="display: inline-block; background: white; color: #3498db; padding: 1rem 2rem; border-radius: 25px; text-decoration: none; font-weight: bold; transition: transform 0.3s;" onmouseover="this.style.transform='translateY(-2px)'" onmouseout="this.style.transform='translateY(0)'">
+                        Start Shopping Today
+                    </a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p>&copy; 2024 FreshMart. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script src="js/auth.js"></script>
+    <script src="js/cart.js"></script>
+</body>
+</html>
